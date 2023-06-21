@@ -1,0 +1,51 @@
+<!--
+Задача №1
+Проверить XML-документ на Well formed
+-->
+
+<!--
+<req>
+
+        <surname>Иванов</surname>
+
+        <name>Иван</name>
+
+        <patronymic>Иванович</patronymic>
+
+        <birthdate>01.01.1990</birthdate>
+
+        <birthplace>Москва</birthplace>
+
+        <phone>8 926 766 48 48</phone>
+
+</req>
+-->
+
+<!--
+    Согласно правилам Well formed XML-документа:
+    1. Есть корневой элемент - соблюдено
+    2. У каждого элемента есть закрывающийся тег - соблюдено
+    3. Теги регистрозависимы - соблюдено
+    4. Соблюдается правильная вложенность документов - соблюдено
+    5. Атрибуты оформлены в кавычках - отсутствует декларация <?xml version="1.0"?>
+-->
+
+<!--Well formed должен выглядеть следующим образом-->
+
+<?xml version="1.0"?>
+
+<req>
+
+        <surname>Иванов</surname>
+
+        <name>Иван</name>
+
+        <patronymic>Иванович</patronymic>
+
+        <birthdate>01.01.1990</birthdate>
+
+        <birthplace>Москва</birthplace>
+
+        <phone>8 926 766 48 48</phone>
+
+</req>
